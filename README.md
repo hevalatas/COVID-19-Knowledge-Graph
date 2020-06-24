@@ -1,1 +1,1 @@
-# COVID-19-Knowledge-Graph
+# COVID-19 Knowledge Graph
