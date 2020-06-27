@@ -10,8 +10,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - COVID-19 related genes/proteins and their interactions were retrieved from the IntAct database’s COVID-19 dataset, which contain 1,172 gene/protein and metabolite nodes from various organisms and 2,214 edges. 
 - Nodes were filtered so that only reviewed protein nodes from human, SARS-CoV, and SARS-CoV-2 (exceptional unreviewed protein entry, ORF10 (accession: A0A663DJA2)) organisms were included.
 - Edges were filtered based on ppi confidence score so that;
-•	edges between host proteins and SARS-CoV and/or SARS-CoV-2 proteins with confidence score less than 0.35, and 
-•	edges between host proteins in the KG (i.e., neighboring proteins) with confidence score less than 0.6 were discarded.
+  -	edges between host proteins and SARS-CoV and/or SARS-CoV-2 proteins with confidence score less than 0.35, and 
+  -	edges between host proteins in the KG (i.e., neighboring proteins) with confidence score less than 0.6 were discarded.
 - Disconnected components made up of host proteins formed due to the interaction-based edge filtering were removed. 
 - Orthology relations between SARS-CoV and SARS-CoV-2 genes/proteins were annotated with "is ortholog of"  edge type. 
 - The subunits of large protein complexes such as the NSPs of replicase polyprotein 1ab of SARS-CoV/SARS-CoV-2 were mapped to their corresponding protein complex nodes with "is subunit of" edge label. 
