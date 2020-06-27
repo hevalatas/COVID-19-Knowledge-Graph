@@ -53,12 +53,14 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The most relevant pathways were determined by the overrepresentation analysis and mapped to the related genes/proteins in the KG. 
 - Pathway-disease relations were also obtained from the KEGG database and incorporated into the KG. 
 - The finalized number of pathways in the KG is 57 (23 for KEGG and 34 for Reactome, among which there are corresponding terms) and the total number of gene/protein-pathway associations (edges) is 718 (244 for KEGG and 474 for Reactome).
+
 **4. COVID-19 related phenotypic implications:**
 - Phenotype terms were retrieved from the Human Phenotype Ontology (HPO) database. 
 - Overrepresentation analysis was applied for the selection of the most relevant HPO terms.
 •	From the score-ranked HPO term list, the terms that are not in a close parent-child relationship were selected and mapped to corresponding genes/proteins in the KG. 
 - HPO also has a curated list of SARS related phenotype terms. These terms were also added into the network and mapped to "COVID-19" and "Severe acute respiratory syndrome" disease nodes. 
 - The finalized number of phenotype terms in the KG (nodes) is 27 and the number of HPO term - gene/protein associations (edges) is 653. 
+
 **5. Other associated diseases of COVID-19 related host genes/proteins:**
 - Disease terms were collected from the CROssBAR database resources: EFO disease collection (mainly including OMIM and Orphanet disease entries) and KEGG diseases database. 
 - The linkage of proteins and EFO terms was achieved through OMIM ids. 
