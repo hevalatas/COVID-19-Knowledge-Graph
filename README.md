@@ -51,6 +51,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Out of all drug/compound-target interaction edges, 135 correspond to drug development procedures, 335 to experimental bioassays and 326 to deep learning based predictions.
 - Drug node shape: white hexagon with green border
 - Compound node shape: white hexagon with fuchsia border
+
+![COVID19_final_network_crossbar_layout_drugs-compounds_v1](https://user-images.githubusercontent.com/8128032/85944886-b68e9880-b942-11ea-924b-4b52fb156e8c.png)
 ---------------------------------------------------------------------------------------------------------------------------------------
 **3. Pathways of  COVID-19 related host genes/proteins:**
 - Signaling and metabolic pathway information was taken from Reactome (via CROssBAR database) and KEGG pathways data sources. 
