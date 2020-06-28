@@ -16,6 +16,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Orthology relations between SARS-CoV and SARS-CoV-2 genes/proteins were annotated with "is ortholog of"  edge type. 
 - The subunits of large protein complexes such as the NSPs of replicase polyprotein 1ab of SARS-CoV/SARS-CoV-2 were mapped to their corresponding protein complex nodes with "is subunit of" edge label. 
 - The finalized number of genes/proteins is 539 (475 host genes/proteins, and 33 SARS-CoV and 31 SARS-CoV-2 genes/proteins) and the number of edges (i.e., PPIs) is 1284.
+
+![COVID19_final_network_crossbar_layout_ppis_no-label_v2](https://user-images.githubusercontent.com/8128032/85942946-796fd980-b935-11ea-9c01-6a14afa74e3d.png)
 ---------------------------------------------------------------------------------------------------------------------------------------
 **2. COVID-19 related drugs and compounds:**
 
