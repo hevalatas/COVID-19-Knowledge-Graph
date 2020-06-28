@@ -104,7 +104,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - For example, the enrichment score (ED,W) and its significance (SD,W), in terms of p-value, for a disease term D, for graph W is calculated as follows:
 
 <p align="center"> <img width="600" alt="enrichment_formula" src="https://user-images.githubusercontent.com/8128032/85949473-b355d580-b95f-11ea-92bd-4c024c7d6181.PNG">
-
+  
 - ED,W is the enrichment score calculated for the disease term D for graph W; mD2 represent the square of the number of genes/proteins in graph W that are associated with disease D; nW represents the total number of genes/proteins having disease associations in graph W; MD is the total number of genes/proteins (not necessarily in graph W) that is associated with disease D; and N represents the total number of reviewed human gene/protein entries (i.e., UniProtKB/Swiss-Prot entries) in the data source that is annotated with any disease entry. SD,W represents the significance (p-value) for the disease term D for graph W calculated in the hypergeometric test.
 - An enrichment score is calculated for each disease entry having associations with the graph gene/protein nodes and these scores are used to rank these disease entries according to their biological relevance to graph. 
 - In the traditional way of calculating an enrichment score, mD is without square. The reason behind taking the square of mD here is to break the tie between the scores of terms in favor of the one with a higher mD value.
