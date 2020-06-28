@@ -17,7 +17,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The subunits of large protein complexes such as the NSPs of replicase polyprotein 1ab of SARS-CoV/SARS-CoV-2 were mapped to their corresponding protein complex nodes with "is subunit of" edge label. 
 - The finalized number of genes/proteins is 539 (475 host genes/proteins, and 33 SARS-CoV and 31 SARS-CoV-2 genes/proteins) and the number of edges (i.e., PPIs) is 1284.
 
-![COVID19_final_network_crossbar_layout_ppis_no-label_v2](https://user-images.githubusercontent.com/8128032/85942946-796fd980-b935-11ea-9c01-6a14afa74e3d.png)
+![COVID19_final_network_crossbar_layout_ppis](https://user-images.githubusercontent.com/8128032/85946962-a978a600-b950-11ea-8b14-15b5af99e35a.png)
 ---------------------------------------------------------------------------------------------------------------------------------------
 **2. COVID-19 related drugs and compounds:**
 
@@ -52,7 +52,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Drug node shape: white hexagon with green border
 - Compound node shape: white hexagon with fuchsia border
 
-![COVID19_final_network_crossbar_layout_drugs-compounds](https://user-images.githubusercontent.com/8128032/85946863-0aec4500-b950-11ea-9f6e-0f86127655a4.png)
+![COVID19_final_network_crossbar_layout_drugs-compounds](https://user-images.githubusercontent.com/8128032/85946964-af6e8700-b950-11ea-9673-5b5ecc08d9c0.png)
 ---------------------------------------------------------------------------------------------------------------------------------------
 **3. Pathways of  COVID-19 related host genes/proteins:**
 - Signaling and metabolic pathway information was taken from Reactome (via CROssBAR database) and KEGG pathways data sources. 
