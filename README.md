@@ -29,9 +29,9 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 **2b. Compound-target interactions from experimentally measured bioactivities**
 - They were retrieved from ChEMBL database (v27) by involving only bioactivity data points in binding assays, where the targets are human or SARS proteins, and the pChEMBL value is greater than or equal to 5. 
 - Overrepresentation analysis was applied to select the most relevant ones. 
-•	Only compounds with enrichment scores greater than 1 and p-value less than 0.05 were considered. 
-•	They were clustered based on Tanimoto coefficient based molecular similarities with a threshold of 0.5.
-•	Top 3 overrepresented compound nodes, that are in different clusters, were selected for each target protein and incorporated to the KG. 
+  -	Only compounds with enrichment scores greater than 1 and p-value less than 0.05 were considered. 
+  -	They were clustered based on Tanimoto coefficient based molecular similarities with a threshold of 0.5.
+  -	Top 3 overrepresented compound nodes, that are in different clusters, were selected for each target protein and incorporated to the KG. 
 - Selected compound - host target protein interactions from the curated ChEMBL SARS-CoV-2 dataset and experimental results in the study of Gordon et al. [Gordon-2020] were also incorporated. 
 - Edge color: blue
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -40,6 +40,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Overepresentation analysis was applied as same in part 2b for DeepScreen compound-target interaction predictions and 5 compounds in different clusters were selected for each protein.
 - MDeePred predictions were generated from the prediction models of ACE2 receptor protein and SARS-CoV-2 3C-like proteinase. 5 predicted drugs for ACE2 receptor and 3C-like proteinase were selected. 
 - Edge color: red 
+
+
 - Drug and compound nodes were merged with respect to drug-compound entry correspondences in DrugBank and ChEMBL databases. This way, some of the drug nodes also contain experimental bioassay based relations (i.e., blue colored edges) and computationally predicted relations (i.e., red colored edges). 
 - Drug-disease relationships based on reported drug indications obtained from the KEGG resource were also incorporated into the KG. 
 - The total number of drugs (nodes) is 108 and the total number of drug interactions (edges) is 279.
@@ -57,7 +59,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 **4. COVID-19 related phenotypic implications:**
 - Phenotype terms were retrieved from the Human Phenotype Ontology (HPO) database. 
 - Overrepresentation analysis was applied for the selection of the most relevant HPO terms.
-•	From the score-ranked HPO term list, the terms that are not in a close parent-child relationship were selected and mapped to corresponding genes/proteins in the KG. 
+  -	From the score-ranked HPO term list, the terms that are not in a close parent-child relationship were selected and mapped to corresponding genes/proteins in the KG. 
 - HPO also has a curated list of SARS related phenotype terms. These terms were also added into the network and mapped to "COVID-19" and "Severe acute respiratory syndrome" disease nodes. 
 - The finalized number of phenotype terms in the KG (nodes) is 27 and the number of HPO term - gene/protein associations (edges) is 653. 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -68,20 +70,21 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Disease-HPO term relations were also integrated into the KG using the disease association information provided in HPO resource. 
 - The finalized number of disease terms in the KG is 23 (10 for KEGG and 13 for EFO) and the number of disease - gene/protein associations (edges) is 52 (31 for KEGG and 21 for EFO). 
 - There  are 41 disease - HPO term associations in total, which include also HPO associations of "COVID-19" and "Severe acute respiratory syndrome" disease nodes.
-	The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3576 edges (i.e., various types of relations).
+
+
+-The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3576 edges (i.e., various types of relations).
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Simplified COVID-19 KG
 - For the construction of the simplified COVID-19 KG, the starting point was the COVID-19 associated proteins in the UniProt COVID-19 portal (https://covid-19.uniprot.org/), instead of the IntAct SARS-CoV-2 interactions dataset, which was used as the base gene/protein set for the large-scale KG. 
 - The remaining steps of building the graph were mainly similar except that, additional nodes representing the organisms: human, SARS-CoV and SARS-CoV-2 were placed in the graph and connected to the corresponding proteins. 
 - The simplified version is not just a subset of the large-scale KG since the starting point of gene/protein collection were different in two KGs, resulting in graphs with slightly different content.
-- The simplified COVID-19 KG includes a total of 178 nodes and 241 edges. 
+
+-The simplified COVID-19 KG includes a total of 178 nodes and 241 edges. 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Node Filtering via Overrepresentation Analysis
 - In overrepresentation analysis, we calculate an independent enrichment score for each biological entity (i.e., a disease, phenotype, drug, compound, gene/protein or pathway), to be assessed as its relevance to the graph that is being constructed. 
 - The calculation of enrichment score and its statistical significance is done using the hypergeometric test for over-representation [Rivals-2007], which also corresponds to a one-tailed Fisher's exact test, and it is based on the statistics of the relations/connections with genes/protein nodes. 
 - For example, the enrichment score (ED,W) and its significance (SD,W), in terms of p-value, for a disease term D, for graph W is calculated as follows:
-                                                                    
-                                                            
 
 - ED,W is the enrichment score calculated for the disease term D for graph W; mD2 represent the square of the number of genes/proteins in graph W that are associated with disease D; nW represents the total number of genes/proteins having disease associations in graph W; MD is the total number of genes/proteins (not necessarily in graph W) that is associated with disease D; and N represents the total number of reviewed human gene/protein entries (i.e., UniProtKB/Swiss-Prot entries) in the data source that is annotated with any disease entry. SD,W represents the significance (p-value) for the disease term D for graph W calculated in the hypergeometric test.
 - An enrichment score is calculated for each disease entry having associations with the graph gene/protein nodes and these scores are used to rank these disease entries according to their biological relevance to graph. 
