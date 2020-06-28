@@ -18,6 +18,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The finalized number of genes/proteins is 539 (475 host genes/proteins, and 33 SARS-CoV and 31 SARS-CoV-2 genes/proteins) and the number of edges (i.e., PPIs) is 1284.
 
 ![COVID19_final_network_crossbar_layout_ppis](https://user-images.githubusercontent.com/8128032/85946962-a978a600-b950-11ea-8b14-15b5af99e35a.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 **2. COVID-19 related drugs and compounds:**
 
@@ -53,6 +54,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Compound node shape: white hexagon with fuchsia border
 
 ![COVID19_final_network_crossbar_layout_drugs-compounds](https://user-images.githubusercontent.com/8128032/85946964-af6e8700-b950-11ea-9673-5b5ecc08d9c0.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 **3. Pathways of  COVID-19 related host genes/proteins:**
 - Signaling and metabolic pathway information was taken from Reactome (via CROssBAR database) and KEGG pathways data sources. 
@@ -61,6 +63,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The finalized number of pathways in the KG is 57 (23 for KEGG and 34 for Reactome, among which there are corresponding terms) and the total number of gene/protein-pathway associations (edges) is 718 (244 for KEGG and 474 for Reactome).
 
 ![COVID19_final_network_crossbar_layout_pathways](https://user-images.githubusercontent.com/8128032/85946884-27887d00-b950-11ea-9ac8-4a656e625ca9.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 **4. COVID-19 related phenotypic implications:**
 - Phenotype terms were retrieved from the Human Phenotype Ontology (HPO) database. 
@@ -71,6 +74,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The finalized number of phenotype terms in the KG (nodes) is 27 and the number of HPO term - gene/protein associations (edges) is 653. 
 
 ![COVID19_final_network_crossbar_layout_phenotypes](https://user-images.githubusercontent.com/8128032/85947885-09be1680-b956-11ea-8406-d12653eaea48.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 **5. Other associated diseases of COVID-19 related host genes/proteins:**
 - Disease terms were collected from the CROssBAR database resources: EFO disease collection (mainly including OMIM and Orphanet disease entries) and KEGG diseases database. 
