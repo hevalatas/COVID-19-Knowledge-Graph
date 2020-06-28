@@ -72,14 +72,14 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - There  are 41 disease - HPO term associations in total, which include also HPO associations of "COVID-19" and "Severe acute respiratory syndrome" disease nodes.
 
 
--The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3576 edges (i.e., various types of relations).
+The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3576 edges (i.e., various types of relations).
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Simplified COVID-19 KG
 - For the construction of the simplified COVID-19 KG, the starting point was the COVID-19 associated proteins in the UniProt COVID-19 portal (https://covid-19.uniprot.org/), instead of the IntAct SARS-CoV-2 interactions dataset, which was used as the base gene/protein set for the large-scale KG. 
 - The remaining steps of building the graph were mainly similar except that, additional nodes representing the organisms: human, SARS-CoV and SARS-CoV-2 were placed in the graph and connected to the corresponding proteins. 
 - The simplified version is not just a subset of the large-scale KG since the starting point of gene/protein collection were different in two KGs, resulting in graphs with slightly different content.
 
--The simplified COVID-19 KG includes a total of 178 nodes and 241 edges. 
+The simplified COVID-19 KG includes a total of 178 nodes and 241 edges. 
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Node Filtering via Overrepresentation Analysis
 - In overrepresentation analysis, we calculate an independent enrichment score for each biological entity (i.e., a disease, phenotype, drug, compound, gene/protein or pathway), to be assessed as its relevance to the graph that is being constructed. 
