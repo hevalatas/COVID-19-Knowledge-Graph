@@ -82,6 +82,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The most relevant disease terms were selected via the overrepresentation analysis. 
 - The finalized number of disease terms in the KG is 23 (10 for KEGG and 13 for EFO) and the number of disease - gene/protein associations (edges) is 52 (31 for KEGG and 21 for EFO). 
 
+<p align="center"> <img src = "https://user-images.githubusercontent.com/8128032/85949228-50b00a00-b95e-11ea-929d-2428bce7670e.png" width=800>
+
 
 **The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3576 edges (i.e., various types of relations).**
 
