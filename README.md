@@ -67,15 +67,16 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Overrepresentation analysis was applied for the selection of the most relevant HPO terms.
   -	From the score-ranked HPO term list, the terms that are not in a close parent-child relationship were selected and mapped to corresponding genes/proteins in the KG. 
 - HPO also has a curated list of SARS related phenotype terms. These terms were also added into the network and mapped to "COVID-19" and "Severe acute respiratory syndrome" disease nodes. 
+- Disease-HPO term relations were also integrated into the KG using the disease association information provided in HPO resource. 
 - The finalized number of phenotype terms in the KG (nodes) is 27 and the number of HPO term - gene/protein associations (edges) is 653. 
+
+![COVID19_final_network_crossbar_layout_phenotypes](https://user-images.githubusercontent.com/8128032/85947885-09be1680-b956-11ea-8406-d12653eaea48.png)
 ---------------------------------------------------------------------------------------------------------------------------------------
 **5. Other associated diseases of COVID-19 related host genes/proteins:**
 - Disease terms were collected from the CROssBAR database resources: EFO disease collection (mainly including OMIM and Orphanet disease entries) and KEGG diseases database. 
 - The linkage of proteins and EFO terms was achieved through OMIM ids. 
 - The most relevant disease terms were selected via the overrepresentation analysis. 
-- Disease-HPO term relations were also integrated into the KG using the disease association information provided in HPO resource. 
 - The finalized number of disease terms in the KG is 23 (10 for KEGG and 13 for EFO) and the number of disease - gene/protein associations (edges) is 52 (31 for KEGG and 21 for EFO). 
-- There  are 41 disease - HPO term associations in total, which include also HPO associations of "COVID-19" and "Severe acute respiratory syndrome" disease nodes.
 
 
 **The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3576 edges (i.e., various types of relations).**
