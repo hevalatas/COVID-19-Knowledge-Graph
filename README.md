@@ -52,13 +52,15 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Drug node shape: white hexagon with green border
 - Compound node shape: white hexagon with fuchsia border
 
-![COVID19_final_network_crossbar_layout_drugs-compounds_v1](https://user-images.githubusercontent.com/8128032/85944886-b68e9880-b942-11ea-924b-4b52fb156e8c.png)
+![COVID19_final_network_crossbar_layout_drugs-compounds](https://user-images.githubusercontent.com/8128032/85946863-0aec4500-b950-11ea-9f6e-0f86127655a4.png)
 ---------------------------------------------------------------------------------------------------------------------------------------
 **3. Pathways of  COVID-19 related host genes/proteins:**
 - Signaling and metabolic pathway information was taken from Reactome (via CROssBAR database) and KEGG pathways data sources. 
 - The most relevant pathways were determined by the overrepresentation analysis and mapped to the related genes/proteins in the KG. 
 - Pathway-disease relations were also obtained from the KEGG database and incorporated into the KG. 
 - The finalized number of pathways in the KG is 57 (23 for KEGG and 34 for Reactome, among which there are corresponding terms) and the total number of gene/protein-pathway associations (edges) is 718 (244 for KEGG and 474 for Reactome).
+
+![COVID19_final_network_crossbar_layout_pathways](https://user-images.githubusercontent.com/8128032/85946884-27887d00-b950-11ea-9ac8-4a656e625ca9.png)
 ---------------------------------------------------------------------------------------------------------------------------------------
 **4. COVID-19 related phenotypic implications:**
 - Phenotype terms were retrieved from the Human Phenotype Ontology (HPO) database. 
