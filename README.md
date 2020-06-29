@@ -43,7 +43,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Overepresentation analysis was applied as same in part 2b for DeepScreen compound-target interaction predictions and 5 compounds in different clusters were selected for each protein.
 - MDeePred predictions were generated from the prediction models of ACE2 receptor protein and SARS-CoV-2 3C-like proteinase. 5 predicted drugs for ACE2 receptor and 3C-like proteinase were selected. 
 - Edge color: red 
-<br /> <br />
+<br /> <br /> <br />
 - Drug and compound nodes were merged with respect to drug-compound entry correspondences in DrugBank and ChEMBL databases. This way, some of the drug nodes also contain experimental bioassay based relations (i.e., blue colored edges) and computationally predicted relations (i.e., red colored edges). 
 - Drug-disease relationships based on reported drug indications obtained from the KEGG resource were also incorporated into the KG. 
 - The total number of drugs (nodes) is 108 and the total number of drug interactions (edges) is 279.
