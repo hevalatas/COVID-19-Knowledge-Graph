@@ -97,6 +97,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 
 **The simplified COVID-19 KG includes a total of 178 nodes and 241 edges.**
 
+![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/8128032/86004107-751dec00-ba1b-11ea-8517-133f57c443cc.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Node Filtering via Overrepresentation Analysis
 - In overrepresentation analysis, we calculate an independent enrichment score for each biological entity (i.e., a disease, phenotype, drug, compound, gene/protein or pathway), to be assessed as its relevance to the graph that is being constructed. 
@@ -113,7 +115,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 ## Loading COVID-19 KGs on Cytoscape
 To load the large-scale and simplified COVID-19 KGs on Cytoscape:
 -	You may directly open the session files (“COVID-19_Largescale_Network_finalized_for_CROssBAR_webservice.cys” and “COVID-19_Simplified_Network_finalized_for_CROssBAR_webservice.cys”) via CytoScape application or (if it does not work),
--	You may open a new session on CytoScape and import the network files (X.xgmml) as File -> Import -> Network -> File option.
+-	You may open a new session on CytoScape and import the network files ("COVID-19_Largescale_Network_finalized_for_CROssBAR_webservice.xgmml" and "COVID-19_Simplified_Network_finalized_for_CROssBAR_webservice.xgmml") as File -> Import -> Network -> File option.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## References
 Gordon, D. E., Jang, G. M., Bouhaddou, M., Xu, J., Obernier, K., White, K. M., ... & Tummino, T. A. (2020). A SARS-CoV-2 protein interaction map reveals targets for drug repurposing. Nature, 1-13.
