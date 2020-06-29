@@ -114,7 +114,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 ## Loading COVID-19 KGs on Cytoscape
 To load the large-scale and simplified COVID-19 KGs on Cytoscape:
 -	You may directly open the session files (“COVID-19_Largescale_Network_finalized_for_CROssBAR_webservice.cys” and “COVID-19_Simplified_Network_finalized_for_CROssBAR_webservice.cys”) via CytoScape application or (if it does not work),
--	You may open a new session on CytoScape and import the network files ("COVID-19_Largescale_Network_finalized_for_CROssBAR_webservice.xgmml" and "COVID-19_Simplified_Network_finalized_for_CROssBAR_webservice.xgmml") as File -> Import -> Network -> File option.
+-	You may open a new session on CytoScape and import the network files ("COVID-19_Largescale_Network_finalized_for_CROssBAR_webservice.xgmml" and "COVID-19_Simplified_Network_finalized_for_CROssBAR_webservice.xgmml") as "File -> Import -> Network from File" option.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## References
 Gordon, D. E., Jang, G. M., Bouhaddou, M., Xu, J., Obernier, K., White, K. M., ... & Tummino, T. A. (2020). A SARS-CoV-2 protein interaction map reveals targets for drug repurposing. Nature, 1-13.
