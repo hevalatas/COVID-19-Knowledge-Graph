@@ -28,7 +28,6 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Drugs in the curated COVID-19 specific drug list of DrugBank were connected to the COVID-19 disease node and related target proteins in the KG -if present-.
 - Drugs from curated results in new and critical SARS-CoV-2 related publications such as Gordon et al. [Gordon-2020] were also incorporated by mapping to corresponding target proteins.
 - Edge color: green
----------------------------------------------------------------------------------------------------------------------------------------
 **2b. Compound-target interactions from experimentally measured bioactivities**
 - They were retrieved from ChEMBL database (v27) by involving only bioactivity data points in binding assays, where the targets are human or SARS proteins, and the pChEMBL value is greater than or equal to 5. 
 - Overrepresentation analysis was applied to select the most relevant ones. 
@@ -37,13 +36,12 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
   -	Top 3 overrepresented compound nodes, that are in different clusters, were selected for each target protein and incorporated to the KG. 
 - Selected compound - host target protein interactions from the curated ChEMBL SARS-CoV-2 dataset and experimental results in the study of Gordon et al. [Gordon-2020] were also incorporated. 
 - Edge color: blue
----------------------------------------------------------------------------------------------------------------------------------------
 **2c. Computationally predicted drug/compound-target interactions** 
 - They were obtained from our in-house deep learning based tools DEEPScreen [Rifaioglu-2020-I] and MDeePred [Rifaioglu-2020-II]. 
 - Overepresentation analysis was applied as same in part 2b for DeepScreen compound-target interaction predictions and 5 compounds in different clusters were selected for each protein.
 - MDeePred predictions were generated from the prediction models of ACE2 receptor protein and SARS-CoV-2 3C-like proteinase. 5 predicted drugs for ACE2 receptor and 3C-like proteinase were selected. 
 - Edge color: red 
-<br /> <br /> <br />
+<br /> <br /> 
 - Drug and compound nodes were merged with respect to drug-compound entry correspondences in DrugBank and ChEMBL databases. This way, some of the drug nodes also contain experimental bioassay based relations (i.e., blue colored edges) and computationally predicted relations (i.e., red colored edges). 
 - Drug-disease relationships based on reported drug indications obtained from the KEGG resource were also incorporated into the KG. 
 - The total number of drugs (nodes) is 108 and the total number of drug interactions (edges) is 279.
