@@ -84,7 +84,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 <p align="center"> <img src = "https://user-images.githubusercontent.com/8128032/85949228-50b00a00-b95e-11ea-929d-2428bce7670e.png" width=800>
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-**The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3576 edges (i.e., various types of relations).**
+**The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3639 edges (i.e., various types of relations).**
 
 ![COVID19_final_network_crossbar_layout_large_scale](https://user-images.githubusercontent.com/8128032/85949366-f9f70000-b95e-11ea-9db1-876de2c577d7.png)
 
@@ -94,7 +94,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The remaining steps of building the graph were mainly similar except that, additional nodes representing the organisms: human, SARS-CoV and SARS-CoV-2 were placed in the graph and connected to the corresponding proteins. 
 - The simplified version is not just a subset of the large-scale KG since the starting point of gene/protein collection were different in two KGs, resulting in graphs with slightly different content.
 
-**The simplified COVID-19 KG includes a total of 178 nodes and 241 edges.**
+**The simplified COVID-19 KG includes a total of 178 nodes and 298 edges.**
 
 ![CROssBAR_COVID-19_Simplified_KG](https://user-images.githubusercontent.com/8128032/86004107-751dec00-ba1b-11ea-8517-133f57c443cc.png)
 
