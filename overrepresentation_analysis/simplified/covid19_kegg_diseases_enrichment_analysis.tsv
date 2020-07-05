@@ -1,5 +1,0 @@
-KEGG_DiseaseID	KEGG_DiseaseName	m	M	n	N	Enrichment_Score_1	Enrichment_Score_2	p-value
-H01479	Castleman disease	1	1	2	3667	1833.5	1833.5	0.000545405
-H01672	Juvenile idiopathic arthritis	1	2	2	3667	916.75	916.75	0.001090661
-H00800	Loeys-Dietz syndrome	1	5	2	3667	366.7	366.7	0.002725537
-H00084	Graft-versus-host disease	1	12	2	3667	152.7916667	152.7916667	0.00653504
