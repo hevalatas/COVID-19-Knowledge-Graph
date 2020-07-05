@@ -17,7 +17,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The subunits of large protein complexes such as the NSPs of replicase polyprotein 1ab of SARS-CoV/SARS-CoV-2 were mapped to their corresponding protein complex nodes with "is subunit of" edge label. 
 - The finalized number of genes/proteins is 539 (475 host genes/proteins, and 33 SARS-CoV and 31 SARS-CoV-2 genes/proteins) and the number of edges (i.e., PPIs) is 1284.
 
-![COVID19_final_network_crossbar_layout_ppis](https://user-images.githubusercontent.com/8128032/85946962-a978a600-b950-11ea-8b14-15b5af99e35a.png)
+![COVID19_final_network_crossbar_layout_ppis](https://user-images.githubusercontent.com/8128032/86535421-eb719100-bee8-11ea-8378-a9d2b7bb7a4a.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 **2. COVID-19 related drugs and compounds:**
@@ -52,7 +52,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Drug node shape: white hexagon with green border
 - Compound node shape: white hexagon with fuchsia border
 
-![COVID19_final_network_crossbar_layout_drugs-compounds](https://user-images.githubusercontent.com/8128032/85946964-af6e8700-b950-11ea-9673-5b5ecc08d9c0.png)
+![COVID19_final_network_crossbar_layout_drugs-compounds](https://user-images.githubusercontent.com/8128032/86535429-f6c4bc80-bee8-11ea-8996-f6e165c09604.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 **3. Pathways of  COVID-19 related host genes/proteins:**
@@ -61,7 +61,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Pathway-disease relations were also obtained from the KEGG database and incorporated into the KG. 
 - The finalized number of pathways in the KG is 57 (23 for KEGG and 34 for Reactome, among which there are corresponding terms) and the total number of gene/protein-pathway associations (edges) is 718 (244 for KEGG and 474 for Reactome).
 
-![COVID19_final_network_crossbar_layout_pathways](https://user-images.githubusercontent.com/8128032/85946884-27887d00-b950-11ea-9ac8-4a656e625ca9.png)
+![COVID19_final_network_crossbar_layout_pathways](https://user-images.githubusercontent.com/8128032/86535443-0f34d700-bee9-11ea-9470-fb672289835d.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 **4. COVID-19 related phenotypic implications:**
@@ -72,7 +72,7 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - Disease-HPO term relations were also integrated into the KG using the disease association information provided in HPO resource. 
 - The finalized number of phenotype terms in the KG (nodes) is 27 and the number of HPO term - gene/protein associations (edges) is 653. 
 
-![COVID19_final_network_crossbar_layout_phenotypes](https://user-images.githubusercontent.com/8128032/85947885-09be1680-b956-11ea-8406-d12653eaea48.png)
+![COVID19_final_network_crossbar_layout_phenotypes](https://user-images.githubusercontent.com/8128032/86535453-1cea5c80-bee9-11ea-8592-beb70bec1430.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 **5. Other associated diseases of COVID-19 related host genes/proteins:**
@@ -80,8 +80,8 @@ Generation of the large-scale COVID-19 graph started with acquiring the related 
 - The linkage of proteins and EFO terms was achieved through OMIM ids. 
 - The most relevant disease terms were selected via the overrepresentation analysis. 
 - The finalized number of disease terms in the KG is 23 (10 for KEGG and 13 for EFO) and the number of disease - gene/protein associations (edges) is 52 (31 for KEGG and 21 for EFO). 
-
-<p align="center"> <img src = "https://user-images.githubusercontent.com/8128032/85949228-50b00a00-b95e-11ea-929d-2428bce7670e.png" width=800>
+  
+![COVID19_final_network_crossbar_layout_diseases_v2](https://user-images.githubusercontent.com/8128032/86535460-2bd10f00-bee9-11ea-86b2-7118bdedfcbb.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 **The finalized  large-scale COVID-19 KG includes 987 nodes (i.e., genes/proteins, drugs/ compounds, pathways, diseases/phenotypes) and 3639 edges (i.e., various types of relations).**
